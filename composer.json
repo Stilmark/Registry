@@ -1,0 +1,23 @@
+{
+    "name": "stilmark/registry",
+    "description": "Parse registry whois data into summarized json.",
+    "type": "package",
+    "require": {
+        "php": "^7",
+        "stilmark/parse": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Lund",
+            "email": "clund@stilmark.com",
+            "homepage": "http://stilmark.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Stilmark\\Registry\\": "src/"
+        }
+    }
+}
